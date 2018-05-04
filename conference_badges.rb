@@ -16,6 +16,6 @@ def printer(attendees)
 end
   assign_rooms.each {|room|}
   print room
-  ebd
+end
 
 end
