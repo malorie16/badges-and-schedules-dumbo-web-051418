@@ -8,3 +8,4 @@ end
 
 def assign_rooms(attendees)
   attendees.map {|name| "Hello, #{name}! You will be assigned to room #{attendees[] + 1}"}
+end
