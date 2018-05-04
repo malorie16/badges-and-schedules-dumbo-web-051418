@@ -12,10 +12,10 @@ end
 
 def printer(attendees)
   batch_badge_creator(attendees).each {|name|}
-  print name
+  puts name
 end
   assign_rooms(attendees).each {|room|}
-  print room
+  puts room
 end
 
 end
