@@ -11,6 +11,6 @@ def assign_rooms(attendees)
 end
 
 def printer
-  badges_and_room_assignments = batch_badge_creator + assign_rooms
+  badges_and_room_assignments = batch_badge_creator.concat(assign_rooms)
   badges_and_room_assignments
 end
