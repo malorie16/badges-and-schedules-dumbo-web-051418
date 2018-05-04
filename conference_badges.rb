@@ -11,7 +11,11 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  attendees.map {|name| "Hello, my name is #{name}."}
-  attendees.map {|name| "Hello, #{name}! You'll be assigned to room #{attendees.index(name) + 1}!"}
+  batch_badge_creator.each {|name|}
+  print name
+end
+  assign_rooms.each {|room|}
+  print room
+  ebd
 
 end
