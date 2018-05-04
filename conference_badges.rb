@@ -10,7 +10,8 @@ def assign_rooms(attendees)
   attendees.map {|name| "Hello, #{name}! You'll be assigned to room #{attendees.index(name) + 1}!"}
 end
 
-def printer
-  badges_and_room_assignments = batch_badge_creator.concat(assign_rooms)
-  badges_and_room_assignments
+def printer(attendees)
+  attendees.map {|name| "Hello, my name is #{name}."}
+  attendees.map {|name| "Hello, #{name}! You'll be assigned to room #{attendees.index(name) + 1}!"}
+
 end
