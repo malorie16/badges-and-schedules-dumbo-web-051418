@@ -10,7 +10,7 @@ def assign_rooms(attendees)
   attendees.map {|name| "Hello, #{name}! You'll be assigned to room #{attendees.index(name) + 1}!"}
 end
 
-def printer(attendees)
-  badge_maker
-  assign_rooms
+def printer
+  badges_and_room_assignments = badge_maker + assign_rooms
+  badges_and_room_assignments
 end
